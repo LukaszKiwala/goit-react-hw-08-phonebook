@@ -1,0 +1,57 @@
+.contactAddForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    border-radius: 10px;
+    background-color: #603cd5;
+    margin: 30px 5px;
+}
+
+.contactAddLabel {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contactAddInput {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 15px;
+    align-items: center;
+    font-size: large;
+    text-align: left;
+    border-radius: 12px;
+    padding: 10px 5px;
+    outline: 0;
+}
+
+.contactAddInput:focus {
+    border: 1px solid #8ac5e3;
+}
+
+.contactAddBtn {
+    margin: 25px auto;
+    width: 280px;
+    background-color: #8ac5e3;
+    border: none;
+    color: white;
+    height: 45px;
+    border-radius: 10px;
+    line-height: normal;
+    font-size: initial;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.contactAddBtn:hover {
+    background-color: #a3e335;
+    cursor: pointer;
+    color: #8ac5e3;
+    transition: 250ms;
+}
