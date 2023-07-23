@@ -18,7 +18,7 @@ export const ContactForm = () => {
     const data = {
       id: nanoid(),
       name: name,
-      number: number, //phone or number???
+      number: number, 
     };
 
     const isItUniqueName = contacts.find(
