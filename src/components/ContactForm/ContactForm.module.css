@@ -4,7 +4,7 @@
     align-items: center;
     width: 450px;
     border-radius: 10px;
-    background-color: #603cd5;
+    background-color: #479499;
     margin: 30px 5px;
 }
 
@@ -30,13 +30,13 @@
 }
 
 .contactAddInput:focus {
-    border: 1px solid #8ac5e3;
+    border: 1px solid #479499;
 }
 
 .contactAddBtn {
     margin: 25px auto;
     width: 280px;
-    background-color: #8ac5e3;
+    background-color: #479499;
     border: none;
     color: white;
     height: 45px;
@@ -50,8 +50,8 @@
 }
 
 .contactAddBtn:hover {
-    background-color: #a3e335;
+    background-color: #dee851;
     cursor: pointer;
-    color: #8ac5e3;
+    color: #479499;
     transition: 250ms;
 }
